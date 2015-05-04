@@ -30,7 +30,7 @@ class Invasion(FloatLayout):
    #     return True
 
     def start_game(self):
-        label = Label(text='Ready!')
+        label = Label(text='GJOER KLAR!')
         animation = Animation(font_size = 72, d=2)
         animation.bind(on_complete=self.fleet.start_attack)
         self.add_widget(label)
